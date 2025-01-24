@@ -25,6 +25,7 @@ DIRECTORIES_TO_SYMLINK=(
 )
 
 # Function to create symlinks
+
 create_symlink() {
   local SOURCE=$1
   local TARGET=$2
