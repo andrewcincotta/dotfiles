@@ -11,17 +11,19 @@ BACKUP_DIR="$HOME/dotfiles_backup"
 
 # List of files to symlink
 FILES_TO_SYMLINK=(
-  ".zshrc"
-  ".vimrc"
   ".bashrc"
-  ".gitconfig"
-  ".tmux.conf"
+  ".fzf.bash"
+  ".fzf.zsh"
+  ".viminfo"
+  ".zshrc"
 )
 
 # List of directories to symlink
 DIRECTORIES_TO_SYMLINK=(
-  ".config/nvim"
-  ".config/alacritty"
+  ".config"
+  ".eclipse"
+  ".oh-my-zsh"
+  ".zsh"
 )
 
 # Function to create symlinks
